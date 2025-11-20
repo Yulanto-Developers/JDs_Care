@@ -1,0 +1,44 @@
+.img-rounded{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.height-20{
+    height: 200px;
+}
+
+.font-size-clss{
+    color: #268415;
+    font-size: 25px;
+   
+}
+.text-green{
+    color: #268415;
+}
+.bold-cls{
+    font-weight: 300;
+    color: black;
+}
+.img-about-cls{
+    height: 470px;
+}
+.heigth-cls{
+    height: 270px;
+}
+
+.text-xl-cls{
+    font-size: large;
+    color: #ffffffd5;
+    padding-top: 20px;
+}
+.text-justify{
+    text-align: justify;
+}
+.flex-cls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

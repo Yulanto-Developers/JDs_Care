@@ -1,0 +1,56 @@
+<-- 
+ chnged color
+  --color-primary-two: #268415;
+
+   --color-btn-col:#55DC4D;
+  --color-btn-col-hover:#268415;
+
+
+
+installed Packages
+
+  tawildind css installed , react-icons installed
+
+
+  install package in gpt
+
+  https://chatgpt.com/share/691b1f06-44b8-8004-a6c3-7df84aed9f85
+
+
+
+className="menu-item-has-children megamenu" megabox menu
+
+menu-item-has-children
+
+
+banner background color- #D3F9E6
+
+-->
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+    .hero-style-two .hero-right_img .img--two {
+        bottom: 0%;
+        right: 4%;
+    }
+}
+
+
+
+sec-bg new gradient color
+background: 
+  linear-gradient(122deg, #268415 0%, rgba(38, 132, 21, 0.8) 34.54%, rgba(130, 220, 180, 0.8) 62.5%, #A1E0CC 100%), 
+  radial-gradient(74.51% 50% at 50% 100%, white 24.09%, white 100%);
+
+
+sec-bg old gradient color
+
+background: 
+  linear-gradient(122deg, #268415 0%, rgba(100, 180, 100, 0.8) 34.54%, rgba(211, 249, 230, 0.8) 62.5%, #D3F9E6 100%), 
+  radial-gradient(74.51% 50% at 50% 100%, white 24.09%, white 100%);
+
+
+
+  project section remove above of workprocess
+   {/* <ProjectSection /> */}
+   // import ProjectSection from '../../components/ProjectSection/ProjectSection';
