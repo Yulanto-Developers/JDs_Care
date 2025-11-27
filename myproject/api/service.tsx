@@ -115,24 +115,27 @@ const Services: Service[] = [
   },
   {
     Id: '7',
-    sImg: serviceImg02,
-    sIcon: sicon1,
-    title: 'IT management',
-    slug: 'IT-management',
+
+    sImg: icon6,
+    title: 'Claims Management',
+    slug: 'Payment Posting',
+    description: 'Efficient claims management ensures customer satisfaction and operational success with faster, cleaner claim processing.',
   },
   {
     Id: '8',
-    sImg: serviceImg01,
+
     sIcon: sicon2,
-    title: 'Data tracking & security',
-    slug: 'Data-tracking-&-security',
+    title: 'Denial Management',
+    slug: 'Payment Posting',
+    description: 'Identifying, analyzing, and appealing denials to reduce revenue leakage, improve cash flow, and maximize clean claim rates.',
   },
   {
     Id: '9',
-    sImg: serviceImg03,
+
     sIcon: sicon3,
-    title: 'Custom CRM services',
-    slug: 'Custom-CRM-services',
+    title: 'Patient Collections',
+    slug: 'Payment Posting',
+    description: 'Sending patient statements for copays, deductibles, and balances with timely follow-up reminders to improve collections.',
   },
   {
     Id: '10',

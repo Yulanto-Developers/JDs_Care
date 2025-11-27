@@ -1,17 +1,17 @@
 import React, { Fragment } from 'react';
 import Header from '../components/header/Header';
 import Hero from '../components/hero/hero';
-import PartnerSection from '../components/PartnerSection';
+// import PartnerSection from '../components/PartnerSection';
 import About from '../components/about/about';
 import ServiceSection from '../components/ServiceSection/ServiceSection';
 // import ProjectSection from '../components/ProjectSection/ProjectSection';
-import WorkProcess from '../components/WorkProcess/WorkProcess';
+import WorkProcess   from '../components/WorkProcess/WorkProcess';
 import IndustrieSection from '../components/IndustrieSection/IndustrieSection';
-import Testimonial from '../components/Testimonial/Testimonial';
+// import Testimonial from '../components/Testimonial/Testimonial';
 // import FeaturesSection from '../components/FeaturesSection/FeaturesSection';
 // import TeamSection from '../components/TeamSection/TeamSection';
 // import FaqSection from '../components/FaqSection/FaqSection';
-import CtaSection from '../components/CtaSection/CtaSection';
+// import CtaSection from '../components/CtaSection/CtaSection';
 import Footer from '../components/footer/Footer';
 import Scrollbar from '../components/scrollbar/scrollbar';
 
@@ -24,17 +24,17 @@ const HomePage = () => {
                 <Header />
                 <main className="page_content">
                     <Hero />
-                    <PartnerSection />
+                    {/* <PartnerSection /> */}
                     <About />
                     <ServiceSection />
                     {/* <ProjectSection /> */}
                     <WorkProcess />
                     <IndustrieSection />
-                    <Testimonial />
+                    {/* <Testimonial /> */}
                     {/* <FeaturesSection /> */}
                     {/* <TeamSection />
                     <FaqSection /> */}
-                    <CtaSection />  
+                    {/* <CtaS/ection />   */}
                 </main>
                 <Footer />
                 <Scrollbar />

@@ -4,9 +4,10 @@ import React, { useState, useEffect, FormEvent } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
+
 import MobileMenu from '../MobileMenu/MobileMenu';
-import MegaMenu1 from './MegaMenu1';
-import MegaMenu2 from './MegaMenu2';
+// import MegaMenu1 from './MegaMenu1';
+// import MegaMenu2 from './MegaMenu2';
 
 const Header: React.FC = () => {
   const [mobailActive, setMobailState] = useState(false);
@@ -25,25 +26,25 @@ const Header: React.FC = () => {
   };
 
   return (
-    <div id="xb-header-area" className="header-area header-style-two bg-black header-transparent">
+    <div id="xb-header-area" className="header-area  header-style-two bg-white header-transparent">
      
       <div className={`xb-header stricky ${isSticky ? 'stricked-menu stricky-fixed' : ''}`}>
-        <div className="container">
+        <div className="container mx-auto">
           <div className="header__wrap ul_li_between">
             {/* Logo */}
             <div className="header-logo">
               <Link href="/">
-                <Image src="/images/logo/Logo-1.png" alt="Texpo Logo" width={150} height={50} />
+                <Image src="/images/logos-jd/Logo-300.png" alt="Texpo Logo" width={300} height={300} />
               </Link>
             </div>
 
             {/* Main Menu */}
             <div className="main-menu__wrap ul_li navbar navbar-expand-xl">
-              <nav className="main-menu collapse navbar-collapse">
+              <nav className="main-menu collapse navbar-collapse fs-5">
                 <ul>
                   <li >
                     <Link href="/">
-                      <span>Home</span>
+                      <span className="nav-hover">Home</span>
                     </Link>
                     {/* <ul className="submenu">
                       <li><Link href="/"><span>SEO Agency</span></Link></li>
@@ -55,18 +56,25 @@ const Header: React.FC = () => {
                     </ul> */}
                   </li>
 
-                  <li className="">
-                    <Link href="/"><span>About Us</span></Link>
+                  <li >
+                    <Link href="/"><span className="nav-hover">About Us</span></Link>
                     {/* <MegaMenu1 /> */}
                   </li>
 
                   <li >
-                    <Link href="/service"><span>Services</span></Link>
+                    <Link href="/service"><span className="nav-hover">Software Expertise</span></Link>
                     {/* <MegaMenu2 /> */}
                   </li>
 
                   <li className="">
-                    <Link href="/casestudy"><span>Why Us</span></Link>
+                    <Link href="/casestudy"><span className="nav-hover">Career</span></Link>
+                    {/* <ul className="submenu">
+                      <li><Link href="/casestudy"><span>Casestudy</span></Link></li>
+                      <li><Link href="/casestudy-details"><span>Casestudy Details</span></Link></li>
+                    </ul> */}
+                  </li>
+                  <li className="">
+                    <Link href="/casestudy"><span className="nav-hover">Contact</span></Link>
                     {/* <ul className="submenu">
                       <li><Link href="/casestudy"><span>Casestudy</span></Link></li>
                       <li><Link href="/casestudy-details"><span>Casestudy Details</span></Link></li>
@@ -122,8 +130,8 @@ const Header: React.FC = () => {
             {/* CTA */}
             <div className="header-contact d-none d-md-block">
               <Link href="/contact" className="thm-btn thm-btn--aso thm-btn--header-black">
-                Let’s talk
-                <Image src="/images/icon/sms-white-icon01.svg" alt="Message Icon" width={20} height={20} />
+                (280) 270-3963 
+                {/* <Image src="/images/icon/sms-white-icon01.svg" alt="Message Icon" width={20} height={20} /> */}
               </Link>
             </div>
           </div>

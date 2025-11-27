@@ -22,7 +22,7 @@ interface ServiceSectionProps {
 
 const ServiceSection: React.FC<ServiceSectionProps> = ({ services = Services }) => {
   return (
-    <section className="service pt-140 pb-140">
+    <section className="service pt-70 pb-80">
       <div className="container">
         <div className="row mt-none-30">
           {/* Left Column - Info */}
@@ -32,7 +32,7 @@ const ServiceSection: React.FC<ServiceSectionProps> = ({ services = Services }) 
                 <Fade direction="down" triggerOnce={false} duration={1000} delay={9}>
                   <div>
                     <span className="sub-title ">
-                      <Image src={hIcon} alt="Feature services icon" />
+                      <Image src={hIcon} alt="Feature services icon" className='icon-cls' />
                       <span className='text-green'>
                       Feature-services
                       </span>
@@ -55,25 +55,14 @@ const ServiceSection: React.FC<ServiceSectionProps> = ({ services = Services }) 
                 </Fade>
               </div>
 
-              {/* <div className="xb-btn mt-50">
-                <Fade direction="up" triggerOnce={false} duration={1600} delay={9}>
-                  <div>
-                    <Link
-                      href="/service"
-                      className="thm-btn thm-btn--aso thm-btn--aso_yellow"
-                    >
-                      View more services
-                    </Link>
-                  </div>
-                </Fade>
-              </div> */}
+             
             </div>
           </div>
 
           {/* Middle Column */}
           <div className="col-lg-4 col-md-6 mt-30">
             <div className="service-all_item">
-              {services.slice(0, 3).map((service, index) =>
+              {services.slice(0, 5).map((service, index) =>
                 service.title ? (
                   <div className="service-box" key={`left-${index}`}>
                     <div className="service-item">
@@ -83,18 +72,18 @@ const ServiceSection: React.FC<ServiceSectionProps> = ({ services = Services }) 
                       </div>
                       <div className="xb-item--icon ul_li_between">
                         <div className="xb-item--img">
-                          {service.sImg ? (
+                          {/* {service.sImg ? (
                             <Image src={service.sImg} alt={service.title} />
                           ) : (
                             <Image src={hIcon} alt={service.title} /> // fallback image
-                          )}
+                          )} */}
                         </div>
-                        <Link
+                        {/* <Link
                           href={'/'}
                           className="xb-item--arrow"
                         >
                           <Image src={sIcon} alt="Arrow icon" />
-                        </Link>
+                        </Link> */}
                       </div>
                       <Link
                         href={'/'}
@@ -110,7 +99,7 @@ const ServiceSection: React.FC<ServiceSectionProps> = ({ services = Services }) 
           {/* Right Column */}
           <div className="col-lg-4 col-md-6 mt-30">
             <div className="service-all_item">
-              {services.slice(3, 6).map((service, index) =>
+              {services.slice(5, 9).map((service, index) =>
                 service.title ? (
                   <div className="service-box" key={`right-${index}`}>
                     <div className="service-item">
@@ -120,23 +109,23 @@ const ServiceSection: React.FC<ServiceSectionProps> = ({ services = Services }) 
                       </div>
                       <div className="xb-item--icon ul_li_between">
                         <div className="xb-item--img">
-                          {service.sImg ? (
+                          {/* {service.sImg ? (
                             <Image src={service.sImg} alt={service.title} />
                           ) : (
                             <Image src={hIcon} alt={service.title} /> // fallback
-                          )}
+                          )} */}
                         </div>
-                        <Link
+                        {/* <Link
                           href={'/service-single'}
                           className="xb-item--arrow"
                         >
                           <Image src={sIcon} alt="Arrow icon" />
-                        </Link>
+                        </Link> */}
                       </div>
-                      <Link
+                      {/* <Link
                         href={'/service-single'}
                         className="xb-overlay"
-                      ></Link>
+                      ></Link> */}
                     </div>
                   </div>
                 ) : null

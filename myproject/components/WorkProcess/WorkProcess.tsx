@@ -1,7 +1,7 @@
 import React from 'react';
 import { Fade } from "react-awesome-reveal";
 import hicon from '@/public/images/icon/process-icon.svg';
-import pImg from '@/public/images/whyChoose/vector.png';
+import pImg from '@/public/images/whyChoose/vector-2.png';
 import pImg2 from '@/public/images/shape/pattern.png';
 import sIcon1 from '@/public/images/icon/search01.svg';
 import sIcon2 from '@/public/images/icon/user-icon.png';
@@ -50,13 +50,13 @@ const Process: ProcessItem[] = [
 
 const WorkProcess: React.FC = () => {
   return (
-    <section className="process pt-40 pb-100 pos-rel" style={{ backgroundColor: "#268415" }}>
+    <section className="process pt-40 pb-100 pos-rel bg-img" >
       <div className="container">
         <div className="sec-title--two text-center mb-90">
           <Fade direction='down' triggerOnce={false} duration={1000} delay={9}>
             <div>
               <div className="sub-title sub-title--strock wow fadeInDown" data-wow-duration="600ms">
-                <Image src={hicon} alt="Process icon" />Why Choose
+                <Image src={hicon} alt="Process icon" className='icon-cls' />Why Choose
               </div>
             </div>
           </Fade>

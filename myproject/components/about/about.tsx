@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Fade } from 'react-awesome-reveal';
 import Image from 'next/image';
-import icon from '@/public/images/icon/magic.png';
+import icon from '@/public/images/icon/magic.svg';
 import about1 from '@/public/images/icon/airdrop.png';
 import about2 from '@/public/images/icon/people.png';
 import about3 from '@/public/images/icon/microphone.png';
@@ -25,7 +25,7 @@ const About: React.FC = () => {
 
           <div className="row align-items-center justify-content-end">
             {/* Left Column (Image) */}
-            <div className="col-lg-5 mt-40">
+            <div className="col-lg-5">
               <div className="about-left">
                 <img
                   src="/images/about/about-img.jpg"
@@ -40,13 +40,13 @@ const About: React.FC = () => {
               <div className="about-right">
                 
                
-                <div className="sec-title--two mb-4">
+                <div className="sec-title--two ">
                   <Fade direction="down" triggerOnce={false} duration={1000} delay={9}>
                    <div className="sub-title wow fadeInDown" data-wow-duration="600ms">
                     
 
                    
-                  <Image src={icon} alt="Industries icon" />
+                  <Image src={icon} alt="Industries icon" className='icon-cls'/>
                   <span className='text-green'>
                  Welcome
                   </span>
@@ -78,7 +78,7 @@ const About: React.FC = () => {
                   </p>
 
                   {/* Feature List */}
-                  <div className={`${marcellus.className} row pt-3`}>
+                  <div className={`${marcellus.className} row`}>
                     <div className="col-6">
                       <p className="mb-2 fw-bold d-flex align-items-center">
                         <span className="font-size-clss me-2"><MdHealthAndSafety /></span> HIPAA Compliant
@@ -98,12 +98,12 @@ const About: React.FC = () => {
                     </div>
                   </div>
                     <div
-              className="xb-btn text-center mt-30 wow fadeInUp"
+              className="xb-btn mt-15 wow fadeInUp"
               data-wow-duration="600ms"
             >
               <Fade direction="up" triggerOnce={false} duration={1500} delay={9}>
-                <Link href="/about" className="thm-btn thm-btn--aso">
-                  About Us
+                <Link href="/about" className="thm-btn thm-btn--aso hover-cls-bg">
+                Read more
                 </Link>
               </Fade>
             </div>

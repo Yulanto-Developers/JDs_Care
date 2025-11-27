@@ -48,14 +48,14 @@ const IndustrieSection: React.FC = () => {
   const [hoverIndex, setHoverIndex] = useState<number | null>(null);
 
   return (
-    <section className="industrie m-lr pt-140 pb-140">
+    <section className="industrie m-lr pt-70 pb-70">
       <div className="industrie-wrap sec-bg pos-rel pt-130 pb-130">
         <div className="container">
-          <div className="sec-title--two text-center mb-30">
+          <div className="sec-title--two text-center mb-0">
             <Fade direction='down' triggerOnce={false} duration={1000} delay={9}>
               <div>
                 <div className="sub-title wow fadeInDown" data-wow-duration="600ms">
-                  <Image src={hicon} alt="Industries icon" />
+                  <Image src={hicon} alt="Industries icon" className='icon-cls' />
                   <span className='text-green'>
                   Healthcare Solutions Experts
                   </span>
@@ -70,7 +70,7 @@ const IndustrieSection: React.FC = () => {
               </div>
             </Fade>
           </div>
-     <div className="row row-cols-xl-4 row-cols-md-3 row-cols-sm-2 row-cols-2">
+     <div className="row row-cols-xl-4 row-cols-md-3 row-cols-sm-2 row-cols-1">
   {Industrie.map((industry, i) => (
     <div className="col" key={i}>
       <div

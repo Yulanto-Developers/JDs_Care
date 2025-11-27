@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
   return (
     <section
       className="hero o-hidden hero-style-two pos-rel pt-120 pb-40 bg_img"
-      // style={{ backgroundImage: `url('/images/bg/hero-bg02.jpg')` }}
+
     >
       <div className="container">
         <div className="hero_wrap">
@@ -25,32 +25,10 @@ const Hero: React.FC = () => {
                   </h1>
                 </Fade>
 
-                {/* <Fade direction="up" triggerOnce duration={1200}>
-                  <p
-                    className="xb-item--content wow fadeInUp"
-                    data-wow-delay="100ms"
-                    data-wow-duration="600ms"
-                  >
-                    (like 0 to 1000 new sales per month kind of results)
-                  </p>
-                </Fade> */}
+
 
                 <Fade direction="up" triggerOnce duration={1400}>
-                  {/* <ul
-                    className="xb-item--item list-unstyled wow fadeInUp"
-                    data-wow-delay="200ms"
-                    data-wow-duration="600ms"
-                  >
-                    <li>
-                      <i className="far fa-check"></i> Recover lost traffic
-                    </li>
-                    <li>
-                      <i className="far fa-check"></i> Boost organic traffic
-                    </li>
-                    <li>
-                      <i className="far fa-check"></i> Get more sales
-                    </li>
-                  </ul> */}
+
                   <p>Expert medical billing solutions that maximize your revenue, reduce denials, <br /> and let you focus on patient care.</p>
                 </Fade>
 
@@ -81,17 +59,7 @@ const Hero: React.FC = () => {
 
                   </div>
                 </Fade>
-                {/* <Fade direction="up" triggerOnce duration={1700}>
-                  <div
-                    className="xb-btn mt-40 wow fadeInUp"
-                    data-wow-delay="300ms"
-                    data-wow-duration="600ms"
-                  >
-                    <Link href="/" className="thm-btn thm-btn--aso thm-btn--aso_yellow">
-                     Learn more
-                    </Link>
-                  </div>
-                </Fade> */}
+
               </div>
             </div>
 
@@ -107,51 +75,32 @@ const Hero: React.FC = () => {
                       fill
                       style={{ objectFit: "contain" }}
                     />
+                    <div className='absolute-cls bg-white abs-hover '>
+                      <p className='aboslute-txt'>99%</p>
+                      <p>
+                        Clean Claims Ratio</p>
+                    </div>
+                    <div className='absolute-cls-1 bg-white abs-hover '>
+                      <p className='aboslute-txt'>95%
+                      </p>
+                      <p>
+                        Collection Rate</p>
+                    </div>
+                    <div className='absolute-cls-2 bg-white abs-hover '>
+                      <p className='aboslute-txt'>50%
+                      </p>
+                      <p>
+                        Revenue Growth</p>
+                    </div>
                   </div>
                 </Fade>
 
 
-                <div className="out-image">
-                  <div className="img img--one updown-2">
-                    <Fade direction="down" triggerOnce duration={1200}>
-                      <Image
-                        className="wow fadeInDown img-rounded"
-                        data-wow-delay="100ms"
-                        data-wow-duration="600ms"
-                        src="/images/banner/small-1.jpg"
-                        alt="Floating Image 1"
-                        fill
-                        style={{ objectFit: 'contain' }}
-                      />
-                    </Fade>
-                  </div>
+                <div className='relative '>
 
-                  <div className="img img--two updown-3">
-                    <Fade direction="up" triggerOnce duration={1200}>
-                      <Image
-                        className="wow fadeInUp"
-                        data-wow-delay="300ms"
-                        data-wow-duration="600ms"
-                        src="/images/banner/small-2.jpg"
-                        alt="Floating Image 2"
-                        fill
-                        style={{ objectFit: 'contain' }}
-                      />
-                    </Fade>
-                  </div>
-                  {/* <div className="img img--three updown-4">
-                    <Fade direction="up" triggerOnce duration={1200}>
-                      <Image
-                        className="wow fadeInUp"
-                        data-wow-delay="300ms"
-                        data-wow-duration="600ms"
-                        src="/images/banner/small-3.jpg"
-                        alt="Floating Image 2"
-                        fill
-                        style={{ objectFit: 'contain' }}
-                      />
-                    </Fade>
-                  </div> */}
+                  <div></div>
+                  <div></div>
+
                 </div>
               </div>
             </div>
