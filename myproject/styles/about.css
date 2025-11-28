@@ -1,0 +1,117 @@
+.text-green{
+    color: #268415 !important;
+}
+
+.bg-img {
+    background-image: url('../public/images/banner/banner-1.jpg');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-footer {
+    background-color: #368254;
+    background-image: url('../public/images/pattern/texture-1.png');
+    background-attachment:scroll ;
+    
+}
+
+.bg-footer li {
+    list-style: none;
+    padding: 12px 0px;
+}
+.footer-icons{
+    border: wheat 1px solid;
+    padding:  5px;
+    color: white;
+    font-size: large;
+}
+
+.footer-cls{
+    border-bottom: white 2px solid;
+}
+
+.bg-found{
+    background-color: #55dd97;
+    background-image:url('../public/images/pattern/p1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-css{
+    width: 100%;
+    max-width: 270px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  border: #55dd97 1px solid;
+}
+
+.founder-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: 0.4s ease;
+}
+
+/* bottom name + job always visible inside image */
+.info-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 12px 16px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  text-align: center;
+  transition: 0.4s;
+}
+
+.info-bottom h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.info-bottom p {
+  margin: 0;
+  font-size: 14px;
+  color: #b7ffc9; /* soft green */
+}
+
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.78);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  transition: 0.4s ease;
+}
+
+
+.image-wrapper:hover .founder-img {
+  transform: scale(1.05);
+  opacity: 0.5;
+}
+
+.image-wrapper:hover .overlay {
+  opacity: 1;
+}
+
+.image-wrapper:hover .info-bottom {
+  opacity: 0; 
+}

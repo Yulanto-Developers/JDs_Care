@@ -57,7 +57,7 @@ const Header: React.FC = () => {
                   </li>
 
                   <li >
-                    <Link href="/"><span className="nav-hover">About Us</span></Link>
+                    <Link href="/about"><span className="nav-hover">About Us</span></Link>
                     {/* <MegaMenu1 /> */}
                   </li>
 

@@ -138,7 +138,7 @@
     border-bottom: white 2px solid;
 }
 .mx-100{
-    margin: 0px 100px;
+    margin: auto;
 }
 
 .font-weight-cls{
@@ -154,6 +154,11 @@
     height: 20px;
     width: 20px;
 }
+.about-bg{
+    background-image:url('../public/images/banner/about-banner.jpg');
+}
+
+
 
 @media screen and (max-width:768px) {
     .mx-100{

@@ -21961,6 +21961,30 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   overflow: hidden;
 }
 
+
+/* about page.tsx */
+
+
+.banner-overlay {
+  position: relative;
+  z-index: 1;
+}
+
+.banner-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+   background: linear-gradient(
+    to right,
+    rgba(85, 208, 151, 0.85), 
+    rgba(85, 208, 151, 0.0)   
+  );
+  z-index: -1;
+ 
+}
+
+/* ends here */
+
 .cs-brand-inner {
   position: relative;
   overflow: hidden;

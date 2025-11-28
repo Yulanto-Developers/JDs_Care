@@ -13,6 +13,9 @@ import Roadmap from './Roadmap';
 import AwardSection from './AwardSection';
 import GallerySection from '../career/Gallery';
 import Image from 'next/image';
+import WorkSection from '../team/work';
+import '../../styles/about.css'
+import '../../styles/custome.css'
 
 const AboutUsPage: React.FC = () => {
   return (
@@ -20,29 +23,15 @@ const AboutUsPage: React.FC = () => {
       <div className="body_wrap sco_agency">
         <Header />
         <section
-          className="page-title pt-200 pos-rel bg_img"
-          style={{ backgroundImage: `url(/images/bg/page_bg01.jpg)` }}
+          className="page-title pt-200 pos-rel bg_img banner-overlay"
+          style={{ backgroundImage: `url(/images/banner/about-banner.jpg)` }}
         >
           <div className="container">
             <div className="page-title-wrap">
               <div className="row mt-none-30 align-items-end">
                 <div className="col-xl-9 col-lg-8 mt-30">
                   <div className="page-title-box">
-                    <span className="sub-title">
-                      <Image src={icon} alt="Magic Icon" />
-                      About Innomax
-                    </span>
-                    <h2 className="title">
-                      Unlocking new heights of online success: how our SEO agency transforms visibility and growth
-                    </h2>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-lg-4 mt-30">
-                  <div className="count-box">
-                    <h2 className="number">
-                      12 <span className="suffix">+</span>
-                    </h2>
-                    <span className="text">Years of experience</span>
+                    <h2 className="title pb-120 text-green pl-40">About Us</h2>
                   </div>
                 </div>
               </div>
@@ -50,7 +39,7 @@ const AboutUsPage: React.FC = () => {
           </div>
         </section>
 
-        <div className="about-video pt-75">
+        {/* <div className="about-video pt-75">
           <div className="container">
             <div className="career_video">
               <video loop muted playsInline autoPlay>
@@ -59,17 +48,17 @@ const AboutUsPage: React.FC = () => {
               </video>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <FeaturesSection />
-        <div style={{ backgroundColor: '#f6f6f8' }}>
-          <WhyChoose />
-          <FunfactSection />
+        <div className='pt-50' style={{ backgroundColor: '#f6f6f8' }}>
+          <WorkSection />
+          {/* <FunfactSection /> */}
         </div>
-        <Roadmap />
-        <AwardSection />
-        <GallerySection pClass="pt-130" />
-        <CtaSection /> 
+        {/* <Roadmap /> */}
+        {/* <AwardSection /> */}
+        {/* <GallerySection pClass="pt-130" /> */}
+        {/* <CtaSection /> */}
       </div>
       <Footer />
       <Scrollbar />

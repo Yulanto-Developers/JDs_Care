@@ -20,6 +20,7 @@ const About: React.FC = () => {
   return (
     <section id="about" className="about m-lr">
       <div className="about-wrapper sec-bg pos-rel pb-90">
+      
         <div className="container">
 
 
