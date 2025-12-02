@@ -17,29 +17,15 @@ const CaseStudySingle: FC<CaseStudySingleProps> = () => {
       <div className="body_wrap sco_agency">
         <Header />
         <section
-          className="page-title pt-200 pos-rel bg_img"
+          className="page-title pt-200 pos-rel bg_img banner-overlay "
           style={{ backgroundImage: `url('/images/bg/page_bg01.jpg')` }}
         >
-          <div className="container">
-            <div className="page-title-wrap sd-title-wrap">
+           <div className="container">
+            <div className="page-title-wrap">
               <div className="row mt-none-30 align-items-end">
-                <div className="col-lg-9 mt-30">
+                <div className="col-xl-9 col-lg-8 mt-30">
                   <div className="page-title-box">
-                    <span className="sub-title">
-                      <Image src={icon} alt="" /> Casestudy details
-                    </span>
-                    <h2 className="title">
-                      Discover our case studies <br /> highlighting transformative <br /> SEO and IT
-                      solutions
-                    </h2>
-                  </div>
-                </div>
-                <div className="col-lg-3 mt-30">
-                  <div className="sd-right-img pos-rel">
-                    <Image src={sImg1} alt="" />
-                    <div className="sd-arrow-shape style-2">
-                      <Image className="xbzoominzoomup" src={sImg2} alt="" />
-                    </div>
+                    <h2 className="title pb-120 text-white pl-40">Contact</h2>
                   </div>
                 </div>
               </div>

@@ -67,14 +67,14 @@ const Header: React.FC = () => {
                   </li>
 
                   <li className="">
-                    <Link href="/casestudy"><span className="nav-hover">Career</span></Link>
+                    <Link href="/career"><span className="nav-hover">Career</span></Link>
                     {/* <ul className="submenu">
                       <li><Link href="/casestudy"><span>Casestudy</span></Link></li>
                       <li><Link href="/casestudy-details"><span>Casestudy Details</span></Link></li>
                     </ul> */}
                   </li>
                   <li className="">
-                    <Link href="/casestudy"><span className="nav-hover">Contact</span></Link>
+                    <Link href="/contact"><span className="nav-hover">Contact</span></Link>
                     {/* <ul className="submenu">
                       <li><Link href="/casestudy"><span>Casestudy</span></Link></li>
                       <li><Link href="/casestudy-details"><span>Casestudy Details</span></Link></li>

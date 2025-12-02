@@ -31,7 +31,7 @@ const AboutUsPage: React.FC = () => {
               <div className="row mt-none-30 align-items-end">
                 <div className="col-xl-9 col-lg-8 mt-30">
                   <div className="page-title-box">
-                    <h2 className="title pb-120 text-green pl-40">About Us</h2>
+                    <h2 className="title pb-120 text-white pl-40">About Us</h2>
                   </div>
                 </div>
               </div>
